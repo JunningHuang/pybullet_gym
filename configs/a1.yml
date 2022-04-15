@@ -1,0 +1,68 @@
+cam_config:
+  cam_dist: 3.4
+  cam_pitch: -37.40
+  cam_target:
+  - -0.29
+  - -0.56
+  - -0.49
+  cam_yaw: 152.40
+startOrientation:
+- 0
+- 0
+- 0
+startPos:
+- 0
+- 0
+- 0.3
+gui: True
+fps: 120
+init_state:
+  jointPos: #theta, alpha
+  - 0
+  - 0 #2.356194490192345
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  jointVel: #thetad, alphad
+  - 0
+  - 0
+  - 0 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+data_path:
+  images: "images"
+  videos: "videos"
+  robot_data: "robot_data"
+sim:
+  horizon: 1000
+  video_recording: False
+fourier_config:
+  order: 5
+  duration: 20
+maxForceLimits:
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5
+- 33.5

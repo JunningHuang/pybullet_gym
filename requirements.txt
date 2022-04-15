@@ -1,0 +1,11 @@
+pybullet
+yaml
+gym
+imageio
+wandb
+pillow
+pinocchio
+scipy
+numpy
+matplotlib
+loguru
