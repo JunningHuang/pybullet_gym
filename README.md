@@ -9,7 +9,10 @@ Download anaconda or miniconda from https://docs.conda.io/en/latest/miniconda.ht
 ```
 conda create --name pybullet python=3.8 --file requirements.txt
 ```
-## Run the environment
+## Active the virtua environment and run the script
+```
+conda active pybullet
+```
 ```
 python gym_wrapper.py
 ```
